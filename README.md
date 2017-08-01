@@ -120,3 +120,27 @@ Total failed tests: 0
 Total failures: 0
 
 ```
+
+## 第三步 引入gspec文件，来难页面布局
+
+### 新增`specs/home-page.gspec`
+
+```
+@objects
+    header              id      header
+
+= Main section =
+    header:
+        height 5 to 100px
+```
+
+### 在测试脚本`step3.js`中添加Layout检查 
+
+```
+test("Home page on ${deviceName}", function (device){
+        var driver = createDriver("http://samples.galenframework.com/tutorial1/tutorial1.html",
+            device.size,
+            "chrome");
+        checkLayout(driver, "GalenDemo/home-page.gspec", [device.deviceName]);
+    });
+```
