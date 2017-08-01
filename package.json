@@ -1,0 +1,22 @@
+{
+  "name": "galendemo",
+  "version": "1.0.0",
+  "description": "How to use Galen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimer1124/GalenDemo.git"
+  },
+  "devDependencies": {
+    "galenframework-cli": "2.3.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aimer1124/GalenDemo/issues"
+  },
+  "homepage": "https://github.com/aimer1124/GalenDemo#readme"
+}
