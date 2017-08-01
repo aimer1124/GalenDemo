@@ -137,7 +137,7 @@ Total failures: 0
 ### 在测试脚本`step3.js`中添加Layout检查 
 
 ```
-test("Home page on ${deviceName}", function (device){
+    test("Home page on ${deviceName}", function (device){
         var driver = createDriver("http://samples.galenframework.com/tutorial1/tutorial1.html",
             device.size,
             "chrome");
