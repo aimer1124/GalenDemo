@@ -19,6 +19,7 @@ forAll(devices, function (device) {
             device.size,
             "chrome");
         checkLayout(driver, "specs/home-page.gspec", [device.deviceName]);
+        driver.close();
     });
 
 });

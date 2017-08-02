@@ -144,3 +144,9 @@ Total failures: 0
         checkLayout(driver, "GalenDemo/home-page.gspec", [device.deviceName]);
     });
 ```
+
+### 添加关闭浏览器
+
+```
+driver.close();
+```
