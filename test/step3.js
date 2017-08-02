@@ -18,7 +18,7 @@ forAll(devices, function (device) {
         var driver = createDriver("http://samples.galenframework.com/tutorial1/tutorial1.html",
             device.size,
             "chrome");
-        checkLayout(driver, "GalenDemo/home-page.gspec", [device.deviceName]);
+        checkLayout(driver, "specs/home-page.gspec", [device.deviceName]);
     });
 
 });
