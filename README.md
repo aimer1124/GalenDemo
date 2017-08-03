@@ -162,7 +162,7 @@ this.home = $page("home", {
 });
 ```
 
-- 测试中引用page
+- 测试中引用`pageObject`
 
 ```
         var homepage = new home(driver);
