@@ -24,7 +24,7 @@ JavaScript executor: Rhino 1.7 release 5 2015 01 29
 
 ## 第一步
 
-### 创建测试文件，存放于`test/step1.js`
+### 创建测试文件，存放于`test/step1.test.js`
 
 ```
 test("First test", function () {
@@ -121,7 +121,7 @@ Total failures: 0
 
 ```
 
-## 第三步 引入gspec文件，来难页面布局
+## 第三步 引入`gspec`文件，来难页面布局
 
 ### 新增`specs/home-page.gspec`
 
@@ -134,7 +134,7 @@ Total failures: 0
         height 5 to 100px
 ```
 
-### 在测试脚本`step3.js`中添加Layout检查 
+### 在测试脚本`step3.test.js`中添加Layout检查 
 
 ```
     test("Home page on ${deviceName}", function (device){
@@ -150,3 +150,4 @@ Total failures: 0
 ```
 driver.close();
 ```
+
