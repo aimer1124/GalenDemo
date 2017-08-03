@@ -151,3 +151,23 @@ Total failures: 0
 driver.close();
 ```
 
+### 添加页面`pageObject`
+
+
+- 新增`pageObject`
+
+```
+this.home = $page("home", {
+    content: "div#content"
+});
+```
+
+- 测试中引用page
+
+```
+        var homepage = new home(driver);
+        if (!homepage.content.exists()){
+            console.log("Content element don't exist")
+        }
+
+```
