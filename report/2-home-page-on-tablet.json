@@ -1,0 +1,52 @@
+{
+  "testId" : "2-home-page-on-tablet",
+  "name" : "Home page on tablet",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/home-page.gspec included tags: tablet",
+      "status" : "info",
+      "time" : 1501743369612,
+      "includedTags" : [ "tablet" ],
+      "sections" : [ {
+        "name" : "Main section",
+        "place" : {
+          "filePath" : "specs/home-page.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/home-page.gspec",
+              "lineNumber" : 8
+            },
+            "name" : "height 5 to 100px",
+            "highlight" : [ "header" ]
+          } ]
+        }, {
+          "name" : "content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/home-page.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "width 600px",
+            "highlight" : [ "content" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "header" : {
+          "area" : [ 0, 0, 600, 100 ]
+        },
+        "content" : {
+          "area" : [ 0, 150, 600, 220 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

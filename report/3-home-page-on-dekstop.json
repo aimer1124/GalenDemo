@@ -1,0 +1,38 @@
+{
+  "testId" : "3-home-page-on-dekstop",
+  "name" : "Home page on dekstop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/home-page.gspec included tags: desktop",
+      "status" : "info",
+      "time" : 1501742905795,
+      "includedTags" : [ "desktop" ],
+      "sections" : [ {
+        "name" : "Main section",
+        "place" : {
+          "filePath" : "specs/home-page.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/home-page.gspec",
+              "lineNumber" : 8
+            },
+            "name" : "height 5 to 100px",
+            "highlight" : [ "header" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "header" : {
+          "area" : [ 0, 0, 1024, 100 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

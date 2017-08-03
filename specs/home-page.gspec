@@ -1,6 +1,16 @@
 @objects
     header              id      header
+    content             id      content-box
 
 = Main section =
-    header:
-        height 5 to 100px
+    @on *
+        header:
+            height 5 to 100px
+
+    @on tablet
+        content:
+            width 600px
+
+    @on desktop
+        content:
+            width 1024px
